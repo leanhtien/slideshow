@@ -4,7 +4,7 @@ const source: Language = {
     name: 'Tiếng Việt',
     v1: {
         common: {
-            title: 'Đại hội thanh niên tiên tiến 2023',
+            title: 'Ứng xử văn minh trên không gian mạng',
             loading: 'Đang tải dữ liệu ...',
             incoming_feature: 'Tính năng đang được phát triển!',
         },

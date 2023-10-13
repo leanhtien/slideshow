@@ -24,7 +24,8 @@
                                         <img :src="item">
                                     </figure>
                                     <figure class="shadow"><img
-                                            src="https://blog-bbh.s3.ap-southeast-1.amazonaws.com/logodaihoi%20%281%29-1695612080.png">
+                                            src="https://i.imgur.com/D1MVe8J.png"> <!-- Logo -->
+
                                     </figure>
                                 </div>
                             </div>
@@ -42,16 +43,16 @@ import { ref, onMounted } from 'vue';
 import { request } from '@/service/helper/request';
 
 const images = ref<string[]>([
-    'https://tool.botup.io/media/doan_thanh_nien/UuBjPXCZBP1695734975475_5559466840816033.png',
-    'https://tool.botup.io/media/doan_thanh_nien/v1Rc35Kjol1695729513003_7012355765443124.png',
-    'https://tool.botup.io/media/doan_thanh_nien/ngLChfYlEL1695708975057_4231217410318550.png',
-    'https://tool.botup.io/media/doan_thanh_nien/ocua8GOGf91695633947169_10079144858825943.png',
-    'https://tool.botup.io/media/doan_thanh_nien/3FF4bazwFF1695446184707_6976363399064896.png',
-    'https://tool.botup.io/media/hoi_truong_dai_hoi/ikBft7vIGK1695617087181_1704268169668229.png',
-    'https://tool.botup.io/media/doan_thanh_nien/4SV3UUtGTG1695364566431_6690991790961788.png',
-    'https://tool.botup.io/media/doan_thanh_nien/2j4RK6W2f41695393179752_3948950285218633.png',
-    'https://tool.botup.io/media/doan_thanh_nien/Ydj1pomdQr1695393616994_3938693399532762.png',
-    'https://tool.botup.io/media/doan_thanh_nien/Wif4qZwjWs1695604927507_6963953287000017.png'
+    'https://tool.botup.io/media/doan_thanh_nien/oyb3P3eTKP1697208023787_24161842546762570.png',
+    'https://tool.botup.io/media/doan_thanh_nien/fTuQEsPJ9V1697208133398_6767492726650963.png',
+    'https://tool.botup.io/media/doan_thanh_nien/SlzpIJssHQ1697207852914_7094502193915629.png',
+    'https://tool.botup.io/media/doan_thanh_nien/PZNnhLHo241697207136373_7307207069291827.png',
+    'https://tool.botup.io/media/doan_thanh_nien/gNuzPgXn9B1697206992382_6725054460948619.png',
+    'https://tool.botup.io/media/doan_thanh_nien/opOXFROYLQ1697206759736_6785693038164198.png',
+    'https://tool.botup.io/media/doan_thanh_nien/A8p8luLK7L1697206526920_23988589554088956.png',
+    'https://tool.botup.io/media/doan_thanh_nien/CxumQ2x2Fh1697205487784_6850937671687794.png',
+    'https://tool.botup.io/media/doan_thanh_nien/QCVZg6dnAd1697204688059_23913546461626845.png',
+    'https://tool.botup.io/media/doan_thanh_nien/wyL6zwUV8y1697203909713_7214104428662835.png'
 ])
 
 const getImages = () => {
@@ -80,7 +81,7 @@ onMounted(() => {
 </script>
 <style scoped lang="scss">
 .background {
-    background-image: url(https://blog-bbh.s3.ap-southeast-1.amazonaws.com/background-1695612093.png);
+    background-image: url(https://imgur.com/lt8yWYq.png);
     height: 100vh;
     width: 100vw;
     background-position: center;

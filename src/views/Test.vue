@@ -42,18 +42,18 @@
 import { ref, onMounted } from 'vue';
 import { request } from '@/service/helper/request';
 
-const images = ref<string[]>([
-    'https://tool.botup.io/media/doan_thanh_nien/oyb3P3eTKP1697208023787_24161842546762570.png',
-    'https://tool.botup.io/media/doan_thanh_nien/fTuQEsPJ9V1697208133398_6767492726650963.png',
-    'https://tool.botup.io/media/doan_thanh_nien/SlzpIJssHQ1697207852914_7094502193915629.png',
-    'https://tool.botup.io/media/doan_thanh_nien/PZNnhLHo241697207136373_7307207069291827.png',
-    'https://tool.botup.io/media/doan_thanh_nien/gNuzPgXn9B1697206992382_6725054460948619.png',
-    'https://tool.botup.io/media/doan_thanh_nien/opOXFROYLQ1697206759736_6785693038164198.png',
-    'https://tool.botup.io/media/doan_thanh_nien/A8p8luLK7L1697206526920_23988589554088956.png',
-    'https://tool.botup.io/media/doan_thanh_nien/CxumQ2x2Fh1697205487784_6850937671687794.png',
-    'https://tool.botup.io/media/doan_thanh_nien/QCVZg6dnAd1697204688059_23913546461626845.png',
-    'https://tool.botup.io/media/doan_thanh_nien/wyL6zwUV8y1697203909713_7214104428662835.png'
-])
+// const images = ref<string[]>([
+//     'https://tool.botup.io/media/doan_thanh_nien/oyb3P3eTKP1697208023787_24161842546762570.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/fTuQEsPJ9V1697208133398_6767492726650963.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/SlzpIJssHQ1697207852914_7094502193915629.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/PZNnhLHo241697207136373_7307207069291827.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/gNuzPgXn9B1697206992382_6725054460948619.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/opOXFROYLQ1697206759736_6785693038164198.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/A8p8luLK7L1697206526920_23988589554088956.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/CxumQ2x2Fh1697205487784_6850937671687794.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/QCVZg6dnAd1697204688059_23913546461626845.png',
+//     'https://tool.botup.io/media/doan_thanh_nien/wyL6zwUV8y1697203909713_7214104428662835.png'
+// ])
 
 const getImages = () => {
     fetch(`https://tool.botup.io/v1/hoi_truong_dai_hoi`, {})
@@ -74,9 +74,9 @@ const getImages = () => {
 }
 
 onMounted(() => {
-    // setInterval(function () {
-    //     getImages()
-    // }, 60000)
+    setInterval(function () {
+        getImages()
+    }, 60000)
 })
 </script>
 <style scoped lang="scss">

@@ -42,6 +42,7 @@
 import { ref, onMounted } from 'vue';
 import { request } from '@/service/helper/request';
 
+const images = ref<string[]>()
 // const images = ref<string[]>([
 //     'https://tool.botup.io/media/doan_thanh_nien/oyb3P3eTKP1697208023787_24161842546762570.png',
 //     'https://tool.botup.io/media/doan_thanh_nien/fTuQEsPJ9V1697208133398_6767492726650963.png',

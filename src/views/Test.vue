@@ -163,9 +163,9 @@ onMounted(() => {
     transform: rotateY(320deg) translateZ(300px);
 }
 
-.slider-content figure:nth-child(10) {
-    transform: rotateY(360deg) translateZ(300px);
-}
+// .slider-content figure:nth-child(10) {
+//     transform: rotateY(360deg) translateZ(300px);
+// }
 
 .shadow {
     position: absolute;

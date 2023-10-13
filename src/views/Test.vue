@@ -4,7 +4,7 @@
             <div class="rt-container">
                 <div class="col-rt-12">
                     <div class="rt-heading">
-                        <h1 style="color: black !important;">THÔNG ĐIỆP ĐẠI HỘI</h1>
+                        <!-- <h1 style="color: black !important;">THÔNG ĐIỆP ĐẠI HỘI</h1> -->
                         <!-- <p>A 3D image slideshow using HTML and CSS.</p> -->
                     </div>
                 </div>
